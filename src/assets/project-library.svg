@@ -1,0 +1,58 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgLib" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF1FF"/>
+      <stop offset="100%" stop-color="#E3E7FF"/>
+    </linearGradient>
+    <linearGradient id="bookA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B5BFD"/>
+      <stop offset="100%" stop-color="#2940C9"/>
+    </linearGradient>
+    <linearGradient id="bookB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6D5CFF"/>
+      <stop offset="100%" stop-color="#4F3FE0"/>
+    </linearGradient>
+    <linearGradient id="bookC" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#8B6CF0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bgLib)"/>
+
+  <!-- Étagère -->
+  <rect x="60" y="290" width="480" height="14" rx="3" fill="#C7CCEA"/>
+  <rect x="60" y="150" width="480" height="14" rx="3" fill="#C7CCEA"/>
+
+  <!-- Livres rangée du haut -->
+  <g>
+    <rect x="90" y="60" width="28" height="90" rx="3" fill="url(#bookA)"/>
+    <rect x="124" y="50" width="28" height="100" rx="3" fill="url(#bookB)"/>
+    <rect x="158" y="68" width="28" height="82" rx="3" fill="url(#bookC)"/>
+    <rect x="192" y="55" width="28" height="95" rx="3" fill="url(#bookA)"/>
+    <rect x="226" y="72" width="28" height="78" rx="3" fill="url(#bookB)"/>
+    <rect x="320" y="58" width="28" height="92" rx="3" fill="url(#bookC)"/>
+    <rect x="354" y="65" width="28" height="85" rx="3" fill="url(#bookA)"/>
+    <rect x="388" y="50" width="28" height="100" rx="3" fill="url(#bookB)"/>
+    <rect x="422" y="70" width="28" height="80" rx="3" fill="url(#bookC)"/>
+    <rect x="456" y="60" width="28" height="90" rx="3" fill="url(#bookA)"/>
+  </g>
+
+  <!-- Livre ouvert au centre, posé sur l'étagère du bas -->
+  <g transform="translate(225,195)">
+    <path d="M0 20 L75 0 L75 90 L0 110 Z" fill="#FFFFFF" stroke="#C7CCEA" stroke-width="2"/>
+    <path d="M150 20 L75 0 L75 90 L150 110 Z" fill="#FFFFFF" stroke="#C7CCEA" stroke-width="2"/>
+    <line x1="14" y1="32" x2="60" y2="20" stroke="#D7DBF5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="14" y1="48" x2="60" y2="36" stroke="#D7DBF5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="14" y1="64" x2="60" y2="52" stroke="#D7DBF5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="20" x2="136" y2="32" stroke="#D7DBF5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="36" x2="136" y2="48" stroke="#D7DBF5" stroke-width="3" stroke-linecap="round"/>
+    <line x1="90" y1="52" x2="136" y2="64" stroke="#D7DBF5" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Petits livres bas droite -->
+  <g>
+    <rect x="490" y="220" width="26" height="84" rx="3" fill="url(#bookB)"/>
+    <rect x="60" y="225" width="26" height="79" rx="3" fill="url(#bookC)"/>
+  </g>
+</svg>
