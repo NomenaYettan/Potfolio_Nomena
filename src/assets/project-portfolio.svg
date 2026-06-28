@@ -1,0 +1,52 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgPortfolio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF1FF"/>
+      <stop offset="100%" stop-color="#E3E7FF"/>
+    </linearGradient>
+    <linearGradient id="browserAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B5BFD"/>
+      <stop offset="100%" stop-color="#6D5CFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bgPortfolio)"/>
+
+  <!-- Fenêtre de navigateur (mockup du site) -->
+  <g transform="translate(80,55)">
+    <rect width="440" height="290" rx="16" fill="#FFFFFF" stroke="#D7DBF5" stroke-width="2"/>
+    <!-- barre de titre -->
+    <rect width="440" height="34" rx="16" fill="#F1F3FC"/>
+    <rect width="440" height="17" y="17" fill="#F1F3FC"/>
+    <circle cx="22" cy="17" r="5" fill="#A78BFA"/>
+    <circle cx="40" cy="17" r="5" fill="#6D5CFF"/>
+    <circle cx="58" cy="17" r="5" fill="#3B5BFD"/>
+    <rect x="150" y="10" width="140" height="14" rx="7" fill="#E3E7FF"/>
+
+    <!-- Hero du mockup -->
+    <rect x="22" y="56" width="160" height="12" rx="6" fill="url(#browserAccent)"/>
+    <rect x="22" y="76" width="220" height="8" rx="4" fill="#DEE1F6"/>
+    <rect x="22" y="92" width="190" height="8" rx="4" fill="#DEE1F6"/>
+    <rect x="22" y="114" width="74" height="24" rx="12" fill="url(#browserAccent)"/>
+    <rect x="106" y="114" width="74" height="24" rx="12" fill="#FFFFFF" stroke="#D7DBF5" stroke-width="2"/>
+
+    <!-- avatar circulaire -->
+    <circle cx="372" cy="100" r="48" fill="#E3E7FF"/>
+    <circle cx="372" cy="100" r="48" fill="none" stroke="url(#browserAccent)" stroke-width="3"/>
+
+    <!-- cartes de contenu -->
+    <rect x="22" y="172" width="130" height="92" rx="10" fill="#F7F8FE" stroke="#E3E7FF" stroke-width="2"/>
+    <rect x="166" y="172" width="130" height="92" rx="10" fill="#F7F8FE" stroke="#E3E7FF" stroke-width="2"/>
+    <rect x="310" y="172" width="110" height="92" rx="10" fill="#F7F8FE" stroke="#E3E7FF" stroke-width="2"/>
+    <circle cx="40" cy="190" r="8" fill="#3B5BFD"/>
+    <circle cx="184" cy="190" r="8" fill="#6D5CFF"/>
+    <circle cx="328" cy="190" r="8" fill="#A78BFA"/>
+  </g>
+
+  <!-- Étoiles/sparkles décoratives -->
+  <g fill="#A78BFA" opacity="0.7">
+    <circle cx="50" cy="340" r="4"/>
+    <circle cx="550" cy="60" r="4"/>
+    <circle cx="560" cy="350" r="3"/>
+  </g>
+</svg>

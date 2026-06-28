@@ -1,0 +1,67 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgTraffic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF1FF"/>
+      <stop offset="100%" stop-color="#E3E7FF"/>
+    </linearGradient>
+    <linearGradient id="roadFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3B5BFD"/>
+      <stop offset="100%" stop-color="#2940C9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#bgTraffic)"/>
+
+  <!-- Routes en croix -->
+  <rect x="0" y="175" width="600" height="50" fill="#C7CCEA"/>
+  <rect x="275" y="0" width="50" height="400" fill="#C7CCEA"/>
+  <!-- Marquage routier -->
+  <g stroke="#FFFFFF" stroke-width="4" stroke-dasharray="14 10">
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+  </g>
+
+  <!-- Bâtiments (silhouette de ville) -->
+  <g fill="#A9B2EE">
+    <rect x="40" y="60" width="44" height="100" rx="4"/>
+    <rect x="100" y="90" width="36" height="70" rx="4"/>
+    <rect x="460" y="240" width="40" height="110" rx="4"/>
+    <rect x="510" y="260" width="50" height="90" rx="4"/>
+  </g>
+  <g fill="url(#roadFill)" opacity="0.85">
+    <rect x="40" y="240" width="44" height="110" rx="4"/>
+    <rect x="470" y="60" width="48" height="100" rx="4"/>
+  </g>
+
+  <!-- Feu de circulation intelligent au centre du carrefour -->
+  <g transform="translate(330,150)">
+    <rect x="-8" y="0" width="16" height="60" rx="4" fill="#6B7280"/>
+    <rect x="-26" y="-58" width="52" height="64" rx="12" fill="#1F2433"/>
+    <circle cx="0" cy="-42" r="9" fill="#FF8C6B"/>
+    <circle cx="0" cy="-18" r="9" fill="#FFD166" opacity="0.4"/>
+    <circle cx="0" cy="6" r="9" fill="#7FFFB3"/>
+  </g>
+
+  <!-- Ondes / signal connecté au-dessus du feu -->
+  <g stroke="#3B5BFD" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M300 70 a 30 30 0 0 1 60 0"/>
+    <path d="M310 80 a 20 20 0 0 1 40 0"/>
+  </g>
+
+  <!-- Voitures stylisées -->
+  <g>
+    <rect x="120" y="188" width="48" height="22" rx="7" fill="url(#roadFill)"/>
+    <circle cx="132" cy="212" r="5" fill="#1F2433"/>
+    <circle cx="156" cy="212" r="5" fill="#1F2433"/>
+  </g>
+  <g>
+    <rect x="420" y="190" width="48" height="22" rx="7" fill="#A78BFA"/>
+    <circle cx="432" cy="214" r="5" fill="#1F2433"/>
+    <circle cx="456" cy="214" r="5" fill="#1F2433"/>
+  </g>
+  <g transform="rotate(90 290 280)">
+    <rect x="266" y="269" width="48" height="22" rx="7" fill="#6D5CFF"/>
+    <circle cx="278" cy="293" r="5" fill="#1F2433"/>
+    <circle cx="302" cy="293" r="5" fill="#1F2433"/>
+  </g>
+</svg>

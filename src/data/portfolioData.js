@@ -10,8 +10,8 @@ import {
 import { FaCss3Alt, FaCode } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
 import libraryImg from "../assets/project-library.svg";
-import travelImg from "../assets/project-travel.svg";
-import collabImg from "../assets/project-collab.svg";
+import smartTrafficImg from "../assets/Capture d'écran 2026-06-21 053105.png";
+import portfolioImg from "../assets/portfolio.png";
 
 // Langages / technologies (issus du CV)
 export const skills = [
@@ -27,7 +27,7 @@ export const skills = [
   { name: "Git & GitHub", icon: SiGithub, color: "#181717" },
 ];
 
-// Projets académiques (issus du CV)
+// Projets (issus du CV + projets personnels)
 export const projects = [
   {
     title: "Application de gestion de bibliothèque",
@@ -39,21 +39,21 @@ export const projects = [
     demo: null,
   },
   {
-    title: "Site web d'une agence de voyage",
+    title: "Smart Traffic — Assistant de transport urbain",
     description:
-      "Conception d'une plateforme présentant les offres et destinations, avec formulaires interactifs et une interface utilisateur claire, moderne et responsive.",
-    image: travelImg,
-    tags: ["HTML/CSS", "JavaScript", "Responsive"],
-    github: "#",
+      "Assistant de gestion du transport urbain conçu lors de l'EmiHack 4.0 : suivi des trajets, optimisation de la circulation et interface claire pour les usagers, avec une base de données pour la persistance des données.",
+    image: smartTrafficImg,
+    tags: ["HTML/CSS", "JavaScript", "Base de données", "EmiHack 4.0"],
+    github: "https://github.com/NomenaYettan/Assistans_pour_les-transport/",
     demo: null,
   },
   {
-    title: "Portfolio collaboratif",
+    title: "Portfolio personnel",
     description:
-      "Développement d'un site portfolio en équipe : répartition des tâches, intégration front-end, design responsive et coordination du travail.",
-    image: collabImg,
-    tags: ["Travail d'équipe", "Front-end", "Responsive"],
-    github: "#",
+      "Ce portfolio lui-même : un site personnel moderne et responsive pour présenter mon profil, mes compétences et mes projets, conçu avec React et Tailwind CSS.",
+    image: portfolioImg,
+    tags: ["React", "Tailwind CSS", "Responsive"],
+    github: "https://github.com/NomenaYettan/Potfolio_Nomena",
     demo: null,
   },
 ];
@@ -63,9 +63,10 @@ export const certifications = [];
 
 // Centres d'intérêt (issus du CV)
 export const interests = [
-  { name: "Jeux vidéo" },
-  { name: "Musique" },
   { name: "Football" },
+  { name: "Développement web" },
+  { name: "Nouvelles technologies" },
+  { name: "Intelligence artificielle" },
 ];
 
 // Qualités (issues du CV)

@@ -49,7 +49,7 @@ export default function Hero() {
               <HiArrowDown className="rotate-[-90deg]" />
             </a>
             <a
-              href="/CV_Nomena_Randriambola.pdf"
+              href="/CV_RANDRIAMBOLA_Nomena_Jean_Gayetan.pdf"
               download
               className="inline-flex items-center gap-2 rounded-full glass px-6 py-3 text-sm font-semibold text-ink hover:-translate-y-0.5 transition-all"
             >
