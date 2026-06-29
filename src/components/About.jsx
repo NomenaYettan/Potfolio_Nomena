@@ -12,7 +12,7 @@ const cards = [
     icon: HiOutlineAcademicCap,
     title: "Mon parcours",
     text:
-      "Après un Baccalauréat Enseignement Général série C, j'ai intégré le parcours DA2I (Développement d'Applications Informatiques et Innovation) à l'EMIT, où je multiplie les projets académiques en développement web et gestion de bases de données.",
+      "Après un Baccalauréat Enseignement Général série C, j'ai intégré le parcours DA2I (Développement d'Applications Internet et Intranet) à l'EMIT, où je multiplie les projets académiques en développement web et gestion de bases de données.",
   },
   {
     icon: HiOutlineLightBulb,
