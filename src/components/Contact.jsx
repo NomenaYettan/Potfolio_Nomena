@@ -10,7 +10,7 @@ const CONTACT_LOCATION = "Andrainjato - Fianarantsoa";
 
 // TODO (à compléter par Nomena) : remplacer ces "#" par tes vrais profils
 const GITHUB_URL = "https://github.com/NomenaYettan";
-const LINKEDIN_URL = "https://www.linkedin.com/in/nomena-y%C3%ABttan-73078441a/";
+const LINKEDIN_URL = "https://www.linkedin.com/in/nomena-jean-gayetan-randriambola-55604141b/";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
