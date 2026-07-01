@@ -30,7 +30,7 @@ export default function Footer() {
             <SiGithub size={18} />
           </a>
           <a
-            href={"https://www.linkedin.com/in/nomena-y%C3%ABttan-73078441a/"}
+            href={"https://www.linkedin.com/in/nomena-jean-gayetan-randriambola-55604141b/"}
             aria-label="LinkedIn"
             className="hover:text-primary transition-colors"
           >
