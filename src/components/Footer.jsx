@@ -3,8 +3,8 @@ import { FaLinkedin } from "react-icons/fa6";
 import { HiOutlineMail } from "react-icons/hi";
 
 // TODO (à compléter par Nomena) : remplacer ces "#" par tes vrais profils
-const GITHUB_URL = "#";
-const LINKEDIN_URL = "#";
+const GITHUB_URL = "https://github.com/NomenaYettan";
+const LINKEDIN_URL = "https://www.linkedin.com/in/nomena-jean-gayetan-randriambola-55604141b/";
 const CONTACT_EMAIL = "nomenayettan@gmail.com";
 
 export default function Footer() {
